@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #0a0a0a;
+}
+
+body a {
+  color: #000000;
+  text-decoration: none;
+}
+
+body .btn-primary {
+  background-color: #9f182a;
+  border-color: #ffffff;
+}
+
+body .btn-primary:hover {
+  color: #fff;
+  background-color: #1c1c1c;
+  border-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+#navbar {
+  background-color: #000000;
+}
+
+#navbar img {
+  height: 16px;
+}
+
+#navbar .navbar {
+  background-color: #000000;
+}
+
+#navbar .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #222222;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 4px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+#navbar .social-links a:hover {
+  background: #9f182a;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#navbar .social-links img {
+  width: 14px;
+  margin-bottom: 3px;
+}
+
+#slide {
+  background-color: #c7c7c7;
+  background-image: url(../media/bck_slide.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px 0px;
+}
+
+#construccion {
+  background-color: #9f182a;
+  padding: 20px 0px;
+}
+
+#distinciones {
+  background-color: #878787;
+  padding: 20px 0px;
+}
+
+#comunicate {
+  background-color: #555555;
+  padding: 20px 0px;
+}
+
+#destacados {
+  background-color: #c7c7c7;
+  padding: 20px 0px;
+}
+
+#pagos {
+  background-color: #aeaeae;
+  padding: 20px 0px;
+}
+
+#footer {
+  background-color: #3c3c3b;
+  padding: 20px 0px;
+  color: #ffffff;
+}
+
+#footer .footer-info h3 {
+  font-family: 400;
+  font-size: 20px;
+  line-height: 8px;
+}
+
+#footer .footer-info p {
+  font: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+#credito {
+  background-color: #000000;
+}
+/*# sourceMappingURL=estilos.css.map */

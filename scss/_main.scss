@@ -1,0 +1,341 @@
+*{ 
+    margin: 0;
+    padding: 0;    
+  }
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+  font-family: "Montserrat", sans-serif;
+  color: #0a0a0a;
+  a {
+    color:$negro;
+    text-decoration: none;
+  }
+  a:hover {
+    color:$bordeau;
+    text-decoration: none;
+  }
+  .btn-primary{
+    background-color: $bordeau;
+    border-color: #ffffff;
+  }
+  .btn-primary:hover {
+    color: #fff;
+    background-color: $bordeau-light;
+    border-color:$blanco;
+  }
+  
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.menu{
+  background-color: $negro;
+  img{
+    height: 16px;
+  }
+  .navbar{       
+    background-color: $negro;
+  }
+  .nav-link{
+    font-family: $Montserrat;
+    font-weight: 600;
+    font-size: 12px;
+  }
+  .dropdown-menu{
+    background-color: $gris90;    
+    a:hover{
+      background-color:$bordeau;
+      color:$blanco;
+    }
+    .dropdown-item{
+      color: $blanco;
+      font-family: $Montserrat;
+      font-size: 12px;
+    }
+
+  }
+  .social-links{
+    a {
+        font-size: 18px;
+        display: inline-block;
+        background: #222222;
+        color: #fff;
+        line-height: 1;
+        padding: 8px 0;
+        margin-right: 4px;
+        border-radius: 4px;
+        text-align: center;
+        width: 36px;
+        height: 36px;
+        transition: 0.3s;
+    }
+    a:hover {
+        background: $bordeau;
+        color: $blanco;
+        text-decoration: none;
+    }
+    img{
+        width: 14px;
+        margin-bottom: 3px;
+    }
+  }
+}
+
+#slide{
+  background-color: $gris20;
+  background-image: url(../media/bck_slide.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px 0px;
+  .card{
+    h4{
+      font-family: $Montserrat;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 20px;
+      text-align: center;
+    }
+    p{
+      font-family: $Montserrat;
+      font-size: 14px;
+      text-align: center;
+    }
+    .btn{
+      font-size: 11px;
+      font-weight: 700;
+      text-align: center;
+      margin: 0px auto;
+    }
+  }
+}
+
+#construccion{
+  background-color: $bordeau;
+  padding: 20px 0px;  
+}
+
+#distinciones{
+  background-color: $blanco;
+  padding: 20px 0px;
+  .card{
+    border: none;
+    img{
+      width: 80px;
+      margin: 20px auto 0px auto;     
+    }
+    h4{
+      font-family: $Montserrat;
+      font-weight: 700;
+      font-size: 20px;
+      text-align: center;
+      line-height: 20px;
+    }
+    p{
+      font-family: $Montserrat;
+      font-size: 14px;
+      text-align: center;
+    }
+  }
+}
+
+/*MQUERY*/
+@media only screen and (max-width: 768px) {
+  #slide{    
+    .card{
+      h4{
+        font-family: $Montserrat;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 16px;
+        text-align: center;
+      }
+      p{
+        font-family: $Montserrat;
+        font-size: 12px;
+        text-align: center;
+      }
+      .btn{
+        font-size: 11px;
+        font-weight: 700;
+        text-align: center;
+        margin: 0px auto;
+      }
+    }
+  }
+  #distinciones{
+    background-color: $bordeau ;
+    .card{
+      border: none;
+      img{
+        width: 60px;
+        margin: 16px auto 0px auto;     
+      }
+      h4{
+        font-family: $Montserrat;
+        font-weight: 700;
+        font-size: 14px;
+        text-align: center;
+        line-height: 20px;
+      }
+      p{
+        font-family: $Montserrat;
+        font-size: 12px;
+        text-align: center;
+      }
+    }
+  }
+}
+
+#comunicate{
+  background-color: $gris50;
+  padding: 20px 0px;
+}
+
+#destacados{
+  background-color: $gris20;
+  padding: 20px 0px;
+}
+
+#pagos{
+  background-color: $gris30;
+  padding: 20px 0px;
+}
+
+
+#footer{
+  background-color: $gris90;
+  padding: 30px 0px;
+  color: $blanco;
+  .footer-info{
+    padding-bottom: 20px;
+    img{
+      width: 100px;
+      padding-bottom: 25px;
+    }
+    h3{
+      font-family: $bebas;
+      color: $blanco;
+      font-size: 24px;
+      line-height: 8px;
+      letter-spacing: 2px;
+    } 
+    p{
+      font-family: $Montserrat;
+      font-size: 12px;
+      line-height: 4px;
+    }   
+  }
+  .footer-links{
+    font-family: $Montserrat;
+    padding-bottom:20px;
+    a{
+      color: $blanco;
+      font-size: 11px;      
+    }
+    ul{
+      list-style: none;
+    }
+    h4{
+      font-size: 14px;
+      font-weight:500;
+    }
+  
+  }
+  .footer-newsletter{
+    h4{
+      font-size: 14px;
+      font-weight: 500;
+    }
+    p{
+      font-size: 12px;
+    }
+    form{
+      font-size: 12px;
+    }
+  }
+}
+
+#credito{
+  background-color: $negro;
+}
+
+#steel{
+  background-color: $gris90;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  h1{
+    font-family: $Montserrat;
+    color: $blanco;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 28px;
+  }
+  .breadcrumb{
+    background-color: $bordeau;
+    a{
+      color: $blanco;
+    }
+    .active{
+      color: $blanco;
+    }    
+  }
+  .card{
+    font-family: $Montserrat;
+    margin: 5px 0px;
+    h5{
+      font-weight: 700;
+      font-size: 20px;
+      text-align: center;
+    }
+    p{
+      font-size: 12px;
+      text-align: center;
+    }
+    .btn{
+      font-size: 11px;
+      font-weight: 700;  
+      margin: 10px auto;     
+    }
+    a:hover{      
+      color:$bordeau;
+    }
+  }  
+}
+
+#destacados2{
+  background-color: $bordeau;
+  padding: 20px 0px;
+  h3{
+    font-weight: 700;
+    text-transform: uppercase;   
+    color:$blanco;
+    font-size: 28px;
+  }
+  .card{
+    font-family: $Montserrat;
+    margin: 5px 0px;
+    h5{
+      font-weight: 700;
+      font-size: 20px;
+      text-align: center;
+    }
+    p{
+      font-size: 12px;
+      text-align: center;
+    }
+    .btn{
+      font-size: 11px;
+      font-weight: 700;  
+      margin: 10px auto;     
+    }
+    a:hover{      
+      color:$bordeau;
+    }
+  } 
+}
