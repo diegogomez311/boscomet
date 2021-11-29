@@ -296,3 +296,22 @@ h1, h2, h3, h4, h5, h6 {
       margin: 10px auto; }
     #destacados2 .card a:hover {
       color: #9f182a; }
+
+#contacto {
+  background-color: #9f182a; }
+  #contacto h4 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #ffffff; }
+  #contacto p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    line-height: 2px; }
+  #contacto .form {
+    background-color: #3c3c3b;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px; }
