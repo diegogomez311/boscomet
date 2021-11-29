@@ -231,7 +231,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #000000; }
 
 #steel {
-  background: linear-gradient(to top, #ffffff, #929292);
+  background: linear-gradient(to top, #a9a9a9, #ffffff);
   padding-top: 20px;
   padding-bottom: 20px; }
   #steel h1 {
@@ -277,7 +277,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
     text-transform: uppercase;
     color: #ffffff;
-    font-size: 28px; }
+    font-size: 18px; }
   #destacados2 .card {
     font-family: "Montserrat", sans-serif;
     margin: 5px 0px; }
