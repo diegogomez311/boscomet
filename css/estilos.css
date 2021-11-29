@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
   #distinciones .card {
     border: none; }
     #distinciones .card img {
-      width: 80px;
+      height: 60px;
       margin: 20px auto 0px auto; }
     #distinciones .card h4 {
       font-family: "Montserrat", sans-serif;
@@ -134,7 +134,7 @@ h1, h2, h3, h4, h5, h6 {
     #distinciones .card {
       border: none; }
       #distinciones .card img {
-        width: 60px;
+        width: 50px;
         margin: 16px auto 0px auto; }
       #distinciones .card h4 {
         font-family: "Montserrat", sans-serif;
@@ -154,6 +154,16 @@ h1, h2, h3, h4, h5, h6 {
 #destacados {
   background-color: #c7c7c7;
   padding: 20px 0px; }
+  #destacados h4 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center; }
+  #destacados p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center; }
 
 #pagos {
   background-color: #aeaeae;
@@ -196,32 +206,59 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 12px; }
   #footer .footer-newsletter form {
     font-size: 12px; }
+  #footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #222222;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 4px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s; }
+  #footer .social-links a:hover {
+    background: #9f182a;
+    color: #ffffff;
+    text-decoration: none; }
+  #footer .social-links img {
+    width: 14px;
+    margin-bottom: 3px; }
 
 #credito {
   background-color: #000000; }
 
 #steel {
-  background-color: #3c3c3b;
+  background: linear-gradient(to top, #ffffff, #929292);
   padding-top: 20px;
   padding-bottom: 20px; }
   #steel h1 {
     font-family: "Montserrat", sans-serif;
-    color: #ffffff;
+    color: #000000;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 28px; }
   #steel .breadcrumb {
-    background-color: #9f182a; }
+    background-color: #000000; }
     #steel .breadcrumb a {
       color: #ffffff; }
     #steel .breadcrumb .active {
-      color: #ffffff; }
+      color: #c7c7c7; }
   #steel .card {
     font-family: "Montserrat", sans-serif;
-    margin: 5px 0px; }
+    background-color: #9f182a;
+    margin: 5px 0px;
+    border: none; }
+    #steel .card .card-body {
+      padding: 5px; }
+    #steel .card .card-title {
+      margin: 4px auto; }
     #steel .card h5 {
       font-weight: 700;
-      font-size: 20px;
+      color: #ffffff;
+      font-size: 16px;
       text-align: center; }
     #steel .card p {
       font-size: 12px;
@@ -229,12 +266,12 @@ h1, h2, h3, h4, h5, h6 {
     #steel .card .btn {
       font-size: 11px;
       font-weight: 700;
-      margin: 10px auto; }
+      margin: 0px auto; }
     #steel .card a:hover {
       color: #9f182a; }
 
 #destacados2 {
-  background-color: #9f182a;
+  background-color: #555555;
   padding: 20px 0px; }
   #destacados2 h3 {
     font-weight: 700;
@@ -244,6 +281,8 @@ h1, h2, h3, h4, h5, h6 {
   #destacados2 .card {
     font-family: "Montserrat", sans-serif;
     margin: 5px 0px; }
+    #destacados2 .card .card-body {
+      padding: 5px; }
     #destacados2 .card h5 {
       font-weight: 700;
       font-size: 20px;

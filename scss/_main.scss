@@ -124,9 +124,9 @@ h1, h2, h3, h4, h5, h6 {
   background-color: $blanco;
   padding: 20px 0px;
   .card{
-    border: none;
+    border: none;    
     img{
-      width: 80px;
+      height: 60px;
       margin: 20px auto 0px auto;     
     }
     h4{
@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
     .card{
       border: none;
       img{
-        width: 60px;
+        width: 50px;
         margin: 16px auto 0px auto;     
       }
       h4{
@@ -194,12 +194,24 @@ h1, h2, h3, h4, h5, h6 {
 
 #comunicate{
   background-color: $gris50;
-  padding: 20px 0px;
+  padding: 20px 0px; 
 }
 
 #destacados{
   background-color: $gris20;
   padding: 20px 0px;
+  h4{
+    font-family: $Montserrat;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+  }
+  p{
+    font-family: $Montserrat;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+  }
 }
 
 #pagos{
@@ -259,6 +271,31 @@ h1, h2, h3, h4, h5, h6 {
       font-size: 12px;
     }
   }
+  .social-links{
+    a {
+        font-size: 18px;
+        display: inline-block;
+        background: #222222;
+        color: #fff;
+        line-height: 1;
+        padding: 8px 0;
+        margin-right: 4px;
+        border-radius: 4px;
+        text-align: center;
+        width: 36px;
+        height: 36px;
+        transition: 0.3s;
+    }
+    a:hover {
+        background: $bordeau;
+        color: $blanco;
+        text-decoration: none;
+    }
+    img{
+        width: 14px;
+        margin-bottom: 3px;
+    }
+  }
 }
 
 #credito{
@@ -266,31 +303,40 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #steel{
-  background-color: $gris90;
+  background: linear-gradient(to top, #ffffff, #929292);
   padding-top: 20px;
   padding-bottom: 20px;
   h1{
     font-family: $Montserrat;
-    color: $blanco;
+    color: $negro;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 28px;
   }
   .breadcrumb{
-    background-color: $bordeau;
+    background-color: $negro;
     a{
       color: $blanco;
     }
     .active{
-      color: $blanco;
+      color: $gris20;
     }    
   }
   .card{
     font-family: $Montserrat;
+    background-color: $bordeau;
     margin: 5px 0px;
+    border:none;
+    .card-body{
+      padding: 5px;
+    }
+    .card-title{
+      margin: 4px auto;
+    }
     h5{
       font-weight: 700;
-      font-size: 20px;
+      color:$blanco;
+      font-size: 16px;
       text-align: center;
     }
     p{
@@ -300,7 +346,7 @@ h1, h2, h3, h4, h5, h6 {
     .btn{
       font-size: 11px;
       font-weight: 700;  
-      margin: 10px auto;     
+      margin: 0px auto;     
     }
     a:hover{      
       color:$bordeau;
@@ -309,7 +355,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #destacados2{
-  background-color: $bordeau;
+  background-color: $gris50;
   padding: 20px 0px;
   h3{
     font-weight: 700;
@@ -320,6 +366,9 @@ h1, h2, h3, h4, h5, h6 {
   .card{
     font-family: $Montserrat;
     margin: 5px 0px;
+    .card-body{
+      padding: 5px;
+    }
     h5{
       font-weight: 700;
       font-size: 20px;
