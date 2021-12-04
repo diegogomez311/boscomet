@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "..\\PROYECTOS\\MG\\WEB MG"
+		},
+		{
+			"path": "..\\PROYECTOS\\DNP\\WEB\\DPN"
+		},
+		{
+			"path": "..\\PROYECTOS\\KAIROS\\WEB FINAL"
+		},
+		{
+			"path": "..\\PROYECTOS\\BOSCOMET\\WEB\\BOSCOMET"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "BOSCOMET"
+	}
+}
