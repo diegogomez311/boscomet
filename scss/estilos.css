@@ -110,7 +110,7 @@ h1, h2, h3, h4, h5, h6 {
 #slide .card h4 {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 24px;
   line-height: 20px;
   text-align: center;
 }
@@ -456,5 +456,72 @@ h1, h2, h3, h4, h5, h6 {
   padding-top: 10px;
   padding-bottom: 10px;
   border-radius: 5px;
+}
+
+#contacto .bi-geo-alt {
+  color: #ffffff;
+}
+
+#contacto .bi-envelope {
+  color: #ffffff;
+}
+
+#contacto .bi-phone {
+  color: #ffffff;
+}
+
+.wa img {
+  height: 60px;
+}
+
+.wa a {
+  position: fixed;
+  bottom: 120px;
+  right: 25px;
+  z-index: 200;
+}
+
+.swiper {
+  width: 600px;
+  height: 150px;
+  background-color: #a9a9a9;
+}
+
+/*--------------------------------------------------------------
+# Clients
+--------------------------------------------------------------*/
+.clients {
+  padding-top: 20px;
+}
+
+.clients .swiper-slide img {
+  opacity: 0.5;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  -webkit-filter: grayscale(100);
+          filter: grayscale(100);
+}
+
+.clients .swiper-slide img:hover {
+  -webkit-filter: none;
+          filter: none;
+  opacity: 1;
+}
+
+.clients .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+.clients .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  background-color: #ddd;
+}
+
+.clients .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #ffc451;
 }
 /*# sourceMappingURL=estilos.css.map */
